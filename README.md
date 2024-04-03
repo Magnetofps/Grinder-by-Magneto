@@ -1,50 +1,35 @@
-Debian based dependencies -
-## Intall build-essential / libx11-dev / libxtst-dev / libxrender-dev (Mandatory. You only need to do this once) !!!
-`
-sudo apt-get install build-essential libx11-dev libxtst-dev libxrender-dev
-`
-Arch based dependencies-
+# Grinder-CG [Apex Cheat] [Linux]
+**Updated to Game Version v3.0.62.30 (Season 20) (27.03.24)**
 
-## Intall base-devel / libx11 / libxtst / libxrender (Mandatory. You only need to do this once) !!!
-`
-sudo pacman -Sy base-devel libx11 libxtst libxrender
-`
-### 0. Introduction:
-```
-DISCLAIMER: This project is for educational purposes only.
-Features available are:
-- Aim Assist
-- ESP, including Mini Map and Level Map
-- RCS
-- Trigger Bot
-- Super Glide
-- Skin Changer
+Maintained By **Magneto**
 
-CREDITS:
-- arturzxc, Azreol, savageroar07, NeedItem, SchuhuEule, Acknowledge, flixearth and all contributors from the UC forum.
-- This Copy of Grinder is Currently maintained by Magneto
+All credits to - arturzxc, Azreol, savageroar07, NeedItem, SchuhuEule, Acknowledge, flixearth and all contributors from the UC forum.
+This is a old version of zap-client... I love this version so I'm just keeping it up to date.
 
-```
-### 1. Download:
-git clone https://github.com/Magnetofps/Grinder-by-Magneto
+Instructions are down below
 
-### 2. Get inside the folder
+# Current Changelog:
+    v3.0.62.30
+    
+# Installation
+**1.Install dependencies**
 
-cd Grinder-by-Magneto
----
-### 3. Compile the program (The below is a single word command that you need to type into terminal and hit Enter):
----
-make
----
-### 4. Open Apex
-```
-Open steam and start apex and wait for it to fully start
-```
-### 5. Run the cheato
-sudo ./a.out
-```
-### 6. Profit
-```
-Unlimited powaaaaaaaaaar!
-```
+    sudo apt-get install -y libudev-dev
+    sudo apt install cmake xorg-dev libglu1-mesa-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev
+    sudo apt install -y libudev-dev libglu1-mesa-dev libxkbcommon-dev libwayland-dev git cmake g++ gcc libinput-dev libsoil-dev
+    sudo apt-get install build-essential
+    sudo apt-get install libx11-dev
+    sudo apt-get install libxtst-dev
+
+**2. Clone repo**
+
+    git clone https://github.com/Magnetofps/Grinder-by-Magneto
+    cd Grinder-by-Magneto
+
+**4. Build and Run**
+
+    make
+    sudo ./a.out
+    
+**5. Edit Grinder.ini for settings**
 
