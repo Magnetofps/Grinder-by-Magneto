@@ -26,30 +26,24 @@ CREDITS:
 
 
 ### 1. Download:
-```
 git clone https://github.com/Magnetofps/Grinder-by-Magneto
-```
-
+---
 ### 2. Get inside the folder
-```
-cd grinder-CG
-```
 
+cd Grinder-by-Magneto
+---
 ### 3. Compile the program (The below is a single word command that you need to type into terminal and hit Enter):
 ```
 make
 ```
-
 ### 4. Open Apex
 ```
 Open steam and start apex and wait for it to fully start
 ```
-
 ### 5. Run the cheato
 ```
 sudo ./a.out
 ```
-
 ### 6. Profit
 ```
 Unlimited powaaaaaaaaaar!
