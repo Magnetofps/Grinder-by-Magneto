@@ -27,7 +27,7 @@ CREDITS:
 
 ### 1. Download:
 ```
-git clone 
+git clone https://github.com/Magnetofps/Grinder-by-Magneto
 ```
 
 ### 2. Get inside the folder
@@ -54,4 +54,4 @@ sudo ./a.out
 ```
 Unlimited powaaaaaaaaaar!
 ```
-![alt text](https://cdn.vox-cdn.com/thumbor/PYVJRRXPhua4a3I2X3n49AIgPZw=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19542877/star_wars6_movie_screencaps.com_13433.jpg)
+
