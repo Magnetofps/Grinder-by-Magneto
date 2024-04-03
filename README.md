@@ -24,10 +24,10 @@ CREDITS:
 - arturzxc, Azreol, savageroar07, NeedItem, SchuhuEule, Acknowledge, flixearth and all contributors from the UC forum.
 - This Copy of Grinder is Currently maintained by Magneto
 
-
+```
 ### 1. Download:
 git clone https://github.com/Magnetofps/Grinder-by-Magneto
----
+
 ### 2. Get inside the folder
 
 cd Grinder-by-Magneto
@@ -37,7 +37,7 @@ cd Grinder-by-Magneto
 make
 ---
 ### 4. Open Apex
----
+```
 Open steam and start apex and wait for it to fully start
 ```
 ### 5. Run the cheato
