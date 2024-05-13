@@ -9,7 +9,7 @@ This is a old version of zap-client... I love this version so I'm just keeping i
 Instructions are down below
 
 # Current Changelog:
-    v3.0.62.30
+    v3.0.68.50
     
 # Installation
 **1.Install dependencies**
