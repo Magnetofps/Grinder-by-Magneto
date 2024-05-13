@@ -28,7 +28,7 @@ constexpr long OFF_TEAM_NUMBER = 0x0328;                      //[RecvTable.DT_Ba
 constexpr long OFF_CURRENT_HEALTH = 0x0318;                   //[RecvTable.DT_BaseEntity]->m_iHealth
 constexpr long OFF_CURRENT_SHIELDS = 0x01a0;                  //[RecvTable.DT_BaseEntity]->m_shieldHealth
 constexpr long OFF_NAME = 0x0471;                             //[RecvTable.DT_BaseEntity]->m_iName
-constexpr long OFF_SIGNIFIER_NAME = 0x0468;                   //[RecvTable.DT_BaseEntity]->m_iSignifierName ?
+constexpr long OFF_SIGNIFIER_NAME = 0x0468;                   //[RecvTable.DT_BaseEntity]->m_iSignifierName 
 constexpr long OFF_LIFE_STATE = 0x0680;                       //[RecvTable.DT_Player]->m_lifeState
 constexpr long OFF_BLEEDOUT_STATE = 0x26e0;                   //[RecvTable.DT_Player]->m_bleedoutState
 constexpr long OFF_LAST_VISIBLE_TIME = 0x198d + 0x3;          //[RecvTable.DT_BaseCombatCharacter]->m_hudInfo_visibilityTestAlwaysPasses + 0x3
@@ -42,12 +42,12 @@ constexpr long OFF_CAMERAORIGIN = 0x1ed0;                     //[Miscellaneous]-
 constexpr long OFF_MODELNAME = 0x0030;                        //[DataMap.C_BaseEntity]->m_ModelName     
 constexpr long OFF_NAMELIST = 0xc790230;                      //[Miscellaneous]->NameList
 constexpr long OFF_YAW = 0x223c - 0x8;                        //[DataMap.C_Player]=>m_currentFramePlayer.m_ammoPoolCount - 0x8
-constexpr long OFF_NAMEINDEX = 0x057c;                        //[RecvTable.DT_BaseEntity]->m_instanceNameIndex ?
+constexpr long OFF_NAMEINDEX = 0x057c;                        //[RecvTable.DT_BaseEntity]->m_instanceNameIndex 
 
 // Weapon
 constexpr long OFF_WEAPON_HANDLE = 0x1934;                    //[RecvTable.DT_BaseCombatCharacter]->m_latestPrimaryWeapons
 constexpr long OFF_WEAPON_INDEX = 0x1778;                     //[RecvTable.DT_WeaponX]->m_weaponNameIndex
-constexpr long OFF_WEAPON_AMMO = 0x1580;                      //[RecvTable.DT_PropSurvival]->m_ammoInClip ?
+constexpr long OFF_WEAPON_AMMO = 0x1580;                      //[RecvTable.DT_PropSurvival]->m_ammoInClip 
 constexpr long OFF_GRENADE_HANDLE = 0x1944;                   //[RecvTable.DT_Player]->m_latestNonOffhandWeapons
 constexpr long OFF_SKIN = 0x0d58;                             //[RecvTable.DT_BaseAnimating]->m_nSkin
 constexpr long OFF_WEAPON_DISCARDED = 0x1599;                 //[RecvTable.DT_WeaponX]->m_discarded
