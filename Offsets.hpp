@@ -1,6 +1,6 @@
 #pragma once
-// GameVersion=v3.0.62.30
-// Updated 4/3/2024
+// GameVersion=v3.0.68.50
+// Updated 5/13/2024
 
 // Core
 constexpr long OFF_REGION = 0x140000000;                      //[Static]->Region
